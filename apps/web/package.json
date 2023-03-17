@@ -1,0 +1,51 @@
+{
+  "name": "web",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "format:check": "prettier --check .",
+    "format:fix": "prettier --write .",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  },
+  "dependencies": {
+    "@next/font": "13.2.4",
+    "@types/node": "18.15.3",
+    "@types/react": "18.0.28",
+    "@types/react-dom": "18.0.11",
+    "eslint": "8.36.0",
+    "eslint-config-next": "13.2.4",
+    "next": "13.2.4",
+    "next-themes": "0.2.1",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tailwind-merge": "1.10.0",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@babel/core": "7.21.3",
+    "@storybook/addon-essentials": "7.0.0-rc.3",
+    "@storybook/addon-interactions": "7.0.0-rc.3",
+    "@storybook/addon-links": "7.0.0-rc.3",
+    "@storybook/blocks": "7.0.0-rc.3",
+    "@storybook/nextjs": "7.0.0-rc.3",
+    "@storybook/react": "7.0.0-rc.3",
+    "@storybook/react-vite": "7.0.0-rc.3",
+    "@storybook/testing-library": "0.0.13",
+    "autoprefixer": "10.4.14",
+    "eslint-config-custom-next": "workspace:*",
+    "jest-mock": "29.5.0",
+    "postcss": "8.4.21",
+    "storybook": "7.0.0-rc.3",
+    "tailwindcss": "3.2.7",
+    "tsconfig": "workspace:*",
+    "tw-colors": "1.1.6",
+    "vite": "4.2.0",
+    "webpack": "5.76.2",
+    "tokens-studio": "workspace:*"
+  }
+}
