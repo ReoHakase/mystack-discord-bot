@@ -4,14 +4,14 @@
   "private": true,
   "files": [
     "base.json",
-    "nextjs.json",
-    "react-library.json"
+    "node.json",
+    "bot.json"
   ],
   "scripts": {
     "format:check": "prettier --check .",
     "format:fix": "prettier --write ."
   },
-    "devDependencies": {
+  "devDependencies": {
     "prettier": "2.8.4"
   }
 }
