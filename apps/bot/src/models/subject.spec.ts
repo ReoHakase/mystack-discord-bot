@@ -1,3 +1,4 @@
+/* eslint-disable no-console */
 import { SubjectSchema } from './subject.js';
 
 describe('SubjectSchema', () => {
