@@ -9,7 +9,7 @@ module.exports = {
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
-  ignorePatterns: ['.turbo', 'node_modules', '**/*.js', '**/*.mjs', '**/*.jsx'],
+  ignorePatterns: ['.turbo', 'node_modules', '**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx'],
   rules: {
     'import/order': [
       'error',
@@ -20,5 +20,6 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
+    'class-methods-use-this': 'warn',
   },
 };
