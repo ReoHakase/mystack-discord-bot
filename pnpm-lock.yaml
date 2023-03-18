@@ -26,12 +26,12 @@ importers:
     specifiers:
       '@discordx/importer': 1.1.10
       '@discordx/pagination': 3.4.0
-      '@types/node': 18.13.0
+      '@types/node': 18.15.3
       discord.js: 14.7.1
       discordx: 11.7.0
       dotenv: 16.0.3
       eslint-config-custom: workspace:*
-      nodemon: 2.0.20
+      nodemon: 2.0.21
       ts-node: 10.9.1
       tsconfig: workspace:*
       tslib: 2.5.0
@@ -47,10 +47,10 @@ importers:
       znv: 0.3.2_zod@3.21.4
       zod: 3.21.4
     devDependencies:
-      '@types/node': 18.13.0
+      '@types/node': 18.15.3
       eslint-config-custom: link:../../packages/eslint-config-custom
-      nodemon: 2.0.20
-      ts-node: 10.9.1_4bewfcp2iebiwuold25d6rgcsy
+      nodemon: 2.0.21
+      ts-node: 10.9.1_cbfmry4sbbh4vatmdrsmatfg5a
       tsconfig: link:../../packages/tsconfig
       tslib: 2.5.0
       typescript: 4.9.5
@@ -369,7 +369,7 @@ packages:
   /@types/keyv/3.1.4:
     resolution: {integrity: sha512-BQ5aZNSCpj7D6K2ksrRCTmKRLEpnPvWDiLPfoGyhZ++8YtiK9d/3DBKPJgry359X/P1PfruyYwvnvwFjuEiEIg==}
     dependencies:
-      '@types/node': 18.13.0
+      '@types/node': 18.15.3
     dev: true
 
   /@types/mdast/3.0.10:
@@ -378,13 +378,13 @@ packages:
       '@types/unist': 2.0.6
     dev: true
 
-  /@types/node/18.13.0:
-    resolution: {integrity: sha512-gC3TazRzGoOnoKAhUx+Q0t8S9Tzs74z7m0ipwGpSqQrleP14hKxP4/JUeEQcD3W1/aIpnWl8pHowI7WokuZpXg==}
+  /@types/node/18.15.3:
+    resolution: {integrity: sha512-p6ua9zBxz5otCmbpb5D3U4B5Nanw6Pk3PPyX05xnxbB/fRv71N7CPmORg7uAD5P70T0xmx1pzAx/FUfa5X+3cw==}
 
   /@types/responselike/1.0.0:
     resolution: {integrity: sha512-85Y2BjiufFzaMIlvJDvTTB8Fxl2xfLo4HgmHzVBz08w4wDePCTjYw66PdrolO0kzli3yam/YCgRufyo1DdQVTA==}
     dependencies:
-      '@types/node': 18.13.0
+      '@types/node': 18.15.3
     dev: true
 
   /@types/semver/7.3.13:
@@ -398,7 +398,7 @@ packages:
   /@types/ws/8.5.4:
     resolution: {integrity: sha512-zdQDHKUgcX/zBc4GrwsE/7dVdAD8JR4EuiAXiiUhhfyIJXXb2+PrGshFyeXWQPMmmZ2XxgaqclgpIC7eTXc1mg==}
     dependencies:
-      '@types/node': 18.13.0
+      '@types/node': 18.15.3
     dev: false
 
   /@typescript-eslint/eslint-plugin/5.55.0_qsnvknysi52qtaxqdyqyohkcku:
@@ -2423,8 +2423,8 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /nodemon/2.0.20:
-    resolution: {integrity: sha512-Km2mWHKKY5GzRg6i1j5OxOHQtuvVsgskLfigG25yTtbyfRGn/GNvIbRyOf1PSCKJ2aT/58TiuUsuOU5UToVViw==}
+  /nodemon/2.0.21:
+    resolution: {integrity: sha512-djN/n2549DUtY33S7o1djRCd7dEm0kBnj9c7S9XVXqRUbuggN1MZH/Nqa+5RFQr63Fbefq37nFXAE9VU86yL1A==}
     engines: {node: '>=8.10.0'}
     hasBin: true
     dependencies:
@@ -3168,7 +3168,7 @@ packages:
     resolution: {integrity: sha512-k43M7uCG1AkTyxgnmI5MPwKoUvS/bRvLvUb7+Pgpdlmok8AoqmUaZxUUw8zKM5B1lqZrt41GjYgnvAi0fppqgQ==}
     dev: false
 
-  /ts-node/10.9.1_4bewfcp2iebiwuold25d6rgcsy:
+  /ts-node/10.9.1_cbfmry4sbbh4vatmdrsmatfg5a:
     resolution: {integrity: sha512-NtVysVPkxxrwFGUUxGYhfux8k78pQB3JqYBXlLRZgdGUqTO5wU/UyHop5p70iEbGhB7q5KmiZiU0Y3KlJrScEw==}
     hasBin: true
     peerDependencies:
@@ -3187,7 +3187,7 @@ packages:
       '@tsconfig/node12': 1.0.11
       '@tsconfig/node14': 1.0.3
       '@tsconfig/node16': 1.0.3
-      '@types/node': 18.13.0
+      '@types/node': 18.15.3
       acorn: 8.8.2
       acorn-walk: 8.2.0
       arg: 4.1.3
