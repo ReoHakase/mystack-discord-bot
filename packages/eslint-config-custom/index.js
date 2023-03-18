@@ -9,7 +9,16 @@ module.exports = {
     'prettier',
   ],
   parser: '@typescript-eslint/parser',
-  ignorePatterns: ['.turbo', 'node_modules', '**/*.js', '**/*.mjs', '**/*.cjs', '**/*.jsx'],
+  ignorePatterns: [
+    '.turbo',
+    'node_modules',
+    'build',
+    '**/*.js',
+    '**/*.mjs',
+    '**/*.cjs',
+    '**/*.jsx',
+    'vitest.config.ts',
+  ],
   rules: {
     'import/order': [
       'error',
