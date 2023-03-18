@@ -20,6 +20,6 @@ module.exports = {
       },
     ],
     'import/prefer-default-export': 'off',
-    'class-methods-use-this': 'warn',
+    'class-methods-use-this': 'off',
   },
 };
