@@ -24,11 +24,11 @@ importers:
 
   apps/bot:
     specifiers:
-      '@discordx/importer': 1.1.10
-      '@discordx/pagination': 3.4.0
+      '@discordx/importer': 1.2.1
+      '@discordx/pagination': 3.4.1
       '@types/node': 18.15.3
-      discord.js: 14.7.1
-      discordx: 11.7.0
+      discord.js: 14.8.0
+      discordx: 11.7.1
       dotenv: 16.0.3
       eslint-config-custom: workspace:*
       nodemon: 2.0.21
@@ -39,10 +39,10 @@ importers:
       znv: 0.3.2
       zod: 3.21.4
     dependencies:
-      '@discordx/importer': 1.1.10
-      '@discordx/pagination': 3.4.0_discord.js@14.7.1
-      discord.js: 14.7.1
-      discordx: 11.7.0_discord.js@14.7.1
+      '@discordx/importer': 1.2.1
+      '@discordx/pagination': 3.4.1_discord.js@14.8.0
+      discord.js: 14.8.0
+      discordx: 11.7.1_discord.js@14.8.0
       dotenv: 16.0.3
       znv: 0.3.2_zod@3.21.4
       zod: 3.21.4
@@ -134,11 +134,6 @@ packages:
       undici: 5.21.0
     dev: false
 
-  /@discordjs/util/0.1.0:
-    resolution: {integrity: sha512-e7d+PaTLVQav6rOc2tojh2y6FE8S7REkqLldq1XF4soCx74XB/DIjbVbVLtBemf0nLW77ntz0v+o5DytKwFNLQ==}
-    engines: {node: '>=16.9.0'}
-    dev: false
-
   /@discordjs/util/0.2.0:
     resolution: {integrity: sha512-/8qNbebFzLWKOOg+UV+RB8itp4SmU5jw0tBUD3ifElW6rYNOj1Ku5JaSW7lLl/WgjjxF01l/1uQPCzkwr110vg==}
     engines: {node: '>=16.9.0'}
@@ -152,10 +147,10 @@ packages:
       typedi: 0.10.0
     dev: false
 
-  /@discordx/importer/1.1.10:
-    resolution: {integrity: sha512-cR8qwQZV7S6CoV+Fw+pcyWAfChyUQZySLe+ByTDLE4gdz4jVL7qqdlWt7G1KrZWSToapJuq2k4M7g3jdVJo6nQ==}
+  /@discordx/importer/1.2.1:
+    resolution: {integrity: sha512-w8aTVXj7VfFP3a/04jgJJpv4bPicBoMgGqNGt5wLMVI7irxf6+trbV014shaUCUomAIED0knNILVEhcoEA/MoA==}
     dependencies:
-      glob: 8.1.0
+      glob: 9.3.0
       tslib: 2.5.0
     dev: false
 
@@ -166,13 +161,13 @@ packages:
       tslib: 2.5.0
     dev: false
 
-  /@discordx/pagination/3.4.0_discord.js@14.7.1:
-    resolution: {integrity: sha512-39O/ooPA70Nw66QijqH5hBJgGULGYnJW6fmKjmbmaZ0OTwPd4W/SY0Ujb8Zrbn80y4oiNwUvzoCXYU0IEc6rTA==}
+  /@discordx/pagination/3.4.1_discord.js@14.8.0:
+    resolution: {integrity: sha512-5LQ+O7NpE/cL1qE8cKf0sKGxAtqj/GTtbbMMwwbNLKDSKID6j+ltabsMYm4i5OpzXaWt98DZXEVwq05WoUSXJw==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
     peerDependencies:
       discord.js: '>=14 || ^14.0.0-dev'
     dependencies:
-      discord.js: 14.7.1
+      discord.js: 14.8.0
       lodash: 4.17.21
       tslib: 2.5.0
     dev: false
@@ -1069,15 +1064,15 @@ packages:
     resolution: {integrity: sha512-Nlxmp10UpVr/utgZ9uODQvG2Or+5w7LFrvFMswyeKC9l/+UaqGT6H0OVgEFhu9GEO4U6K7NNO5W8Carv7irnCA==}
     dev: false
 
-  /discord.js/14.7.1:
-    resolution: {integrity: sha512-1FECvqJJjjeYcjSm0IGMnPxLqja/pmG1B0W2l3lUY2Gi4KXiyTeQmU1IxWcbXHn2k+ytP587mMWqva2IA87EbA==}
+  /discord.js/14.8.0:
+    resolution: {integrity: sha512-UOxYtc/YnV7jAJ2gISluJyYeBw4e+j8gWn+IoqG8unaHAVuvZ13DdYN0M1f9fbUgUvSarV798inIrYFtDNDjwQ==}
     engines: {node: '>=16.9.0'}
-    deprecated: Hard crashes on interactions with a channel in the payload, use 14.8.0 and up
     dependencies:
       '@discordjs/builders': 1.5.0
       '@discordjs/collection': 1.4.0
+      '@discordjs/formatters': 0.2.0
       '@discordjs/rest': 1.6.0
-      '@discordjs/util': 0.1.0
+      '@discordjs/util': 0.2.0
       '@sapphire/snowflake': 3.4.0
       '@types/ws': 8.5.4
       discord-api-types: 0.37.36
@@ -1091,15 +1086,15 @@ packages:
       - utf-8-validate
     dev: false
 
-  /discordx/11.7.0_discord.js@14.7.1:
-    resolution: {integrity: sha512-h2BdJcymq9N9J18hSHjRr0w6oOGnll1fg2R+pydxOqdkp3jjZou+ehM9x1dptYqqm7o4KZYIuhXICqlV/NkdjQ==}
+  /discordx/11.7.1_discord.js@14.8.0:
+    resolution: {integrity: sha512-hFjKz5D4e87c4Hojs9wvAc3KgbC/j2QC/SF3YXAJDqzLVwjWkWJnJAutNJjmUTHjY/lJKsFlUd5Gu6NjXlUsPw==}
     engines: {node: '>=16.0.0', npm: '>=7.0.0'}
     peerDependencies:
       discord.js: '>=14 || ^14.0.0-dev'
     dependencies:
       '@discordx/di': 3.0.3
       '@discordx/internal': 1.0.2
-      discord.js: 14.7.1
+      discord.js: 14.8.0
       lodash: 4.17.21
       tslib: 2.5.0
     dev: false
@@ -1683,15 +1678,14 @@ packages:
       once: 1.4.0
       path-is-absolute: 1.0.1
 
-  /glob/8.1.0:
-    resolution: {integrity: sha512-r8hpEjiQEYlF2QU0df3dS+nxxSIreXQS1qRhMJM0Q5NDdR386C7jb7Hwwod8Fgiuex+k0GFjgft18yvxm5XoCQ==}
-    engines: {node: '>=12'}
+  /glob/9.3.0:
+    resolution: {integrity: sha512-EAZejC7JvnQINayvB/7BJbpZpNOJ8Lrw2OZNEvQxe0vaLn1SuwMcfV7/MNaX8L/T0wmptBFI4YMtDvSBxYDc7w==}
+    engines: {node: '>=16 || 14 >=14.17'}
     dependencies:
       fs.realpath: 1.0.0
-      inflight: 1.0.6
-      inherits: 2.0.4
-      minimatch: 5.1.6
-      once: 1.4.0
+      minimatch: 7.4.2
+      minipass: 4.2.5
+      path-scurry: 1.6.1
     dev: false
 
   /global-dirs/3.0.1:
@@ -2312,6 +2306,11 @@ packages:
     dependencies:
       yallist: 4.0.0
 
+  /lru-cache/7.18.3:
+    resolution: {integrity: sha512-jumlc0BIUrS3qJGgIkWZsyfAM7NCWiBcCDhnd+3NNM5KbBmLTgHVfWBcg6W+rLUsIpzpERPsvwUP7CckAQSOoA==}
+    engines: {node: '>=12'}
+    dev: false
+
   /make-dir/3.1.0:
     resolution: {integrity: sha512-g3FeP20LNwhALb/6Cz6Dd4F2ngze0jz7tbzrD2wAV+o9FeNHe4rL+yK2md0J/fiSf1sa1ADhXqi5+oVwOM/eGw==}
     engines: {node: '>=8'}
@@ -2383,8 +2382,8 @@ packages:
     dependencies:
       brace-expansion: 1.1.11
 
-  /minimatch/5.1.6:
-    resolution: {integrity: sha512-lKwV/1brpG6mBUFHtb7NUmtABCb2WZZmm2wNiOA5hAb8VdCS4B3dtMWyvcoViccwAW/COERjXLt0zP1zXUN26g==}
+  /minimatch/7.4.2:
+    resolution: {integrity: sha512-xy4q7wou3vUoC9k1xGTXc+awNdGaGVHtFUaey8tiX4H1QRc04DZ/rmDFwNm2EBsuYEhAZ6SgMmYf3InGY6OauA==}
     engines: {node: '>=10'}
     dependencies:
       brace-expansion: 2.0.1
@@ -2392,6 +2391,11 @@ packages:
 
   /minimist/1.2.8:
     resolution: {integrity: sha512-2yyAR8qBkN3YuheJanUpWC5U3bb5osDywNB8RzDVlDwDHbocAJveqqj1u8+SVD7jkWT4yvsHCpWqqWqAxb0zCA==}
+
+  /minipass/4.2.5:
+    resolution: {integrity: sha512-+yQl7SX3bIT83Lhb4BVorMAHVuqsskxRdlmO9kTpyukp8vsm2Sn/fUOV9xlnG8/a5JsypJzap21lz/y3FBMJ8Q==}
+    engines: {node: '>=8'}
+    dev: false
 
   /ms/2.1.2:
     resolution: {integrity: sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==}
@@ -2641,6 +2645,14 @@ packages:
 
   /path-parse/1.0.7:
     resolution: {integrity: sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==}
+    dev: false
+
+  /path-scurry/1.6.1:
+    resolution: {integrity: sha512-OW+5s+7cw6253Q4E+8qQ/u1fVvcJQCJo/VFD8pje+dbJCF1n5ZRMV2AEHbGp+5Q7jxQIYJxkHopnj6nzdGeZLA==}
+    engines: {node: '>=14'}
+    dependencies:
+      lru-cache: 7.18.3
+      minipass: 4.2.5
     dev: false
 
   /path-type/4.0.0:
