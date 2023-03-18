@@ -24,9 +24,9 @@
     "zod": "3.21.4"
   },
   "devDependencies": {
-    "@types/node": "18.13.0",
+    "@types/node": "18.15.3",
     "eslint-config-custom": "workspace:*",
-    "nodemon": "2.0.20",
+    "nodemon": "2.0.21",
     "ts-node": "10.9.1",
     "tsconfig": "workspace:*",
     "tslib": "2.5.0",
