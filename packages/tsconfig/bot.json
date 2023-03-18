@@ -9,7 +9,10 @@
     "rootDir": "./src",
     "experimentalDecorators": true,
     "emitDecoratorMetadata": true,
-    "forceConsistentCasingInFileNames": true
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "esModuleInterop": true,
+    "moduleResolution": "nodenext"
   },
   "exclude": ["node_modules", "**/__tests__/*", "build"],
   "include": ["src/**/*"]
