@@ -30,7 +30,7 @@
     "@vitest/ui": "0.29.3",
     "@types/node": "18.15.3",
     "eslint-config-custom": "workspace:*",
-    "nodemon": "2.0.21",
+    "nodemon": "3.0.1",
     "ts-node": "10.9.1",
     "tsconfig": "workspace:*",
     "tslib": "2.5.0",

@@ -9,7 +9,7 @@ importers:
       eslint-config-prettier: 8.7.0
       husky: 8.0.3
       lint-staged: 13.2.0
-      prettier: 2.8.4
+      prettier: 3.0.0
       scaffdog: 2.5.0
       turbo: 1.8.3
     devDependencies:
@@ -18,7 +18,7 @@ importers:
       eslint-config-prettier: 8.7.0_eslint@8.36.0
       husky: 8.0.3
       lint-staged: 13.2.0
-      prettier: 2.8.4
+      prettier: 3.0.0
       scaffdog: 2.5.0
       turbo: 1.8.3
 
@@ -33,7 +33,7 @@ importers:
       discordx: 11.7.1
       dotenv: 16.0.3
       eslint-config-custom: workspace:*
-      nodemon: 2.0.21
+      nodemon: 3.0.1
       ts-node: 10.9.1
       tsconfig: workspace:*
       tslib: 2.5.0
@@ -54,7 +54,7 @@ importers:
       '@vitest/coverage-c8': 0.29.3_vitest@0.29.3
       '@vitest/ui': 0.29.3
       eslint-config-custom: link:../../packages/eslint-config-custom
-      nodemon: 2.0.21
+      nodemon: 3.0.1
       ts-node: 10.9.1_sxidjv3cojnrggmso45tj7hldi
       tsconfig: link:../../packages/tsconfig
       tslib: 2.5.0
@@ -71,7 +71,7 @@ importers:
       eslint-config-prettier: 8.7.0
       eslint-config-turbo: latest
       eslint-plugin-import: 2.27.5
-      prettier: 2.8.4
+      prettier: 3.0.0
       typescript: 5.0.2
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.55.0_qsnvknysi52qtaxqdyqyohkcku
@@ -80,17 +80,17 @@ importers:
       eslint-config-airbnb-base: 15.0.0_eakrjjutlgqjxe5ydhtnd4qdmy
       eslint-config-airbnb-typescript: 17.0.0_g4ufqspmwdmninnalnmypeb4gi
       eslint-config-prettier: 8.7.0_eslint@8.36.0
-      eslint-config-turbo: 0.0.9_eslint@8.36.0
+      eslint-config-turbo: 1.10.7_eslint@8.36.0
       eslint-plugin-import: 2.27.5_a7er6olmtneep4uytpot6gt7wu
       typescript: 5.0.2
     devDependencies:
-      prettier: 2.8.4
+      prettier: 3.0.0
 
   packages/tsconfig:
     specifiers:
-      prettier: 2.8.4
+      prettier: 3.0.0
     devDependencies:
-      prettier: 2.8.4
+      prettier: 3.0.0
 
 packages:
 
@@ -750,7 +750,7 @@ packages:
       '@typescript-eslint/typescript-estree': 5.55.0_typescript@5.0.2
       eslint: 8.36.0
       eslint-scope: 5.1.1
-      semver: 7.3.8
+      semver: 7.5.4
     transitivePeerDependencies:
       - supports-color
       - typescript
@@ -1667,13 +1667,13 @@ packages:
     dependencies:
       eslint: 8.36.0
 
-  /eslint-config-turbo/0.0.9_eslint@8.36.0:
-    resolution: {integrity: sha512-j1cTdx3tRmKo0csyfQKhpuT8dynK9oddbK5nmrShoMpXI2qMbxHLYH7MWAid4FmJN8rYympy3VKw5U63Yazycg==}
+  /eslint-config-turbo/1.10.7_eslint@8.36.0:
+    resolution: {integrity: sha512-0yHt5UlXVph8S4SOvP6gYehLvYjJj6XFKTYOG/WUQbjlcF0OU4pOT1a1juqmmBPWYlvJ0evt7v+RekY4tOopPQ==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
       eslint: 8.36.0
-      eslint-plugin-turbo: 0.0.9_eslint@8.36.0
+      eslint-plugin-turbo: 1.10.7_eslint@8.36.0
     dev: false
 
   /eslint-import-resolver-node/0.3.7:
@@ -1748,11 +1748,12 @@ packages:
       - supports-color
     dev: false
 
-  /eslint-plugin-turbo/0.0.9_eslint@8.36.0:
-    resolution: {integrity: sha512-fEsuSnYU3GLtT+s66mUuzDL1LaSieIx5uk3tPO0ToGv7hI2XzOfP24aPkQItTBGl7kq2JaVkRzPwcnfz8hkp0w==}
+  /eslint-plugin-turbo/1.10.7_eslint@8.36.0:
+    resolution: {integrity: sha512-YikBHc75DY9VV1vAFUIBekHLQlxqVT5zTNibK8zBQInCUhF7PvyPJc0xXw5FSz8EYtt4uOV3r0Km3CmFRclS4Q==}
     peerDependencies:
       eslint: '>6.6.0'
     dependencies:
+      dotenv: 16.0.3
       eslint: 8.36.0
     dev: false
 
@@ -2891,9 +2892,9 @@ packages:
       lodash: 4.17.21
     dev: true
 
-  /nodemon/2.0.21:
-    resolution: {integrity: sha512-djN/n2549DUtY33S7o1djRCd7dEm0kBnj9c7S9XVXqRUbuggN1MZH/Nqa+5RFQr63Fbefq37nFXAE9VU86yL1A==}
-    engines: {node: '>=8.10.0'}
+  /nodemon/3.0.1:
+    resolution: {integrity: sha512-g9AZ7HmkhQkqXkRc20w+ZfQ73cHLbE8hnPbtaFbFtCumZsjyMhKk9LajQ07U5Ux28lvFjZ5X7HvWR1xzU8jHVw==}
+    engines: {node: '>=10'}
     hasBin: true
     dependencies:
       chokidar: 3.5.3
@@ -2901,8 +2902,8 @@ packages:
       ignore-by-default: 1.0.1
       minimatch: 3.1.2
       pstree.remy: 1.1.8
-      semver: 5.7.1
-      simple-update-notifier: 1.1.0
+      semver: 7.5.4
+      simple-update-notifier: 2.0.0
       supports-color: 5.5.0
       touch: 3.1.0
       undefsafe: 2.0.5
@@ -3189,9 +3190,9 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /prettier/2.8.4:
-    resolution: {integrity: sha512-vIS4Rlc2FNh0BySk3Wkd6xmwxB0FpOndW5fisM5H8hsZSxU2VWVB5CWIkIjWvrHjIhxk2g3bfMKM87zNTrZddw==}
-    engines: {node: '>=10.13.0'}
+  /prettier/3.0.0:
+    resolution: {integrity: sha512-zBf5eHpwHOGPC47h0zrPyNn+eAEIdEzfywMoYn2XPi0P44Zp0tSq64rq0xAREh4auw2cJZHo9QUob+NqCQky4g==}
+    engines: {node: '>=14'}
     hasBin: true
     dev: true
 
@@ -3428,22 +3429,20 @@ packages:
       semver: 6.3.0
     dev: true
 
-  /semver/5.7.1:
-    resolution: {integrity: sha512-sauaDf/PZdVgrLTNYHRtpXa1iRiKcaebiKQ1BJdpQlWH2lCvexQdX55snPFyK7QzpudqbCI0qXFfOasHdyNDGQ==}
-    hasBin: true
-    dev: true
-
   /semver/6.3.0:
     resolution: {integrity: sha512-b39TBaTSfV6yBrapU89p5fKekE2m/NwnDocOVruQFS1/veMgdzuPcnOM34M6CwxW8jH/lxEa5rBoDeUwu5HHTw==}
     hasBin: true
 
-  /semver/7.0.0:
-    resolution: {integrity: sha512-+GB6zVA9LWh6zovYQLALHwv5rb2PHGlJi3lfiqIHxR0uuwCgefcOJc59v9fv1w8GbStwxuuqqAjI9NMAOOgq1A==}
-    hasBin: true
-    dev: true
-
   /semver/7.3.8:
     resolution: {integrity: sha512-NB1ctGL5rlHrPJtFDVIVzTyQylMLu9N9VICA6HSFJo8MCGVTMW6gfpicwKmmK/dAjTOrqu5l63JJOpDSrAis3A==}
+    engines: {node: '>=10'}
+    hasBin: true
+    dependencies:
+      lru-cache: 6.0.0
+    dev: false
+
+  /semver/7.5.4:
+    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
     engines: {node: '>=10'}
     hasBin: true
     dependencies:
@@ -3483,11 +3482,11 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /simple-update-notifier/1.1.0:
-    resolution: {integrity: sha512-VpsrsJSUcJEseSbMHkrsrAVSdvVS5I96Qo1QAQ4FxQ9wXFcB+pjj7FB7/us9+GcgfW4ziHtYMc1J0PLczb55mg==}
-    engines: {node: '>=8.10.0'}
+  /simple-update-notifier/2.0.0:
+    resolution: {integrity: sha512-a2B9Y0KlNXl9u/vsW6sTIu9vGEpfKu2wRV6l1H3XEas/0gUIzGzBoP/IouTcUQbm9JWZLH3COxyn03TYlFax6w==}
+    engines: {node: '>=10'}
     dependencies:
-      semver: 7.0.0
+      semver: 7.5.4
     dev: true
 
   /sirv/2.0.2:
@@ -4007,7 +4006,7 @@ packages:
       is-yarn-global: 0.3.0
       latest-version: 5.1.0
       pupa: 2.1.1
-      semver: 7.3.8
+      semver: 7.5.4
       semver-diff: 3.1.1
       xdg-basedir: 4.0.0
     dev: true
